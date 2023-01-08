@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "bin": {
-    "node": "bin/www.js"
+    "node": "./bin/www.js"
   },
   "dependencies": {
     "ansi-styles": "^4.3.0",
@@ -80,7 +80,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "node ./src/bin/www.js",
+    "start": "node ./bin/www.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
