@@ -23,7 +23,7 @@ function login(){
     .then((res) => res.json())  //서버에서 res된 값을 받는다.
     .then((res) => {            //서버에서 res된 값에 대해 검증하고 이에 따른 실행문
         if (res.success){
-            alert ("로그인 성공");
+            alert (res.msg);
             location.href = "/";
         } else {
             alert(res.msg);
